@@ -4,6 +4,13 @@ A **Calendar Application for Communication Tracking**, built with **Next.js**, *
 
 ---
 
+## 🚀 **Deployed App**
+
+You can view the live version of the Calendar App here:  
+[**Live Demo**](https://5yixbqx2pldfhrq3.vercel.app/)
+
+---
+
 ## 🚀 **Prerequisites**
 
 Before you begin, ensure your system meets the following requirements:
