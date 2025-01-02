@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📅 **Calendar App**
 
-## Getting Started
+A **Calendar Application for Communication Tracking**, built with **Next.js**, **React**, and **Tailwind CSS**, designed to streamline communication scheduling and follow-ups with companies.
 
-First, run the development server:
+---
+
+## 🚀 **Prerequisites**
+
+Before you begin, ensure your system meets the following requirements:
+
+- 🖥️ A Windows, Linux, or Mac machine.
+- 📦 The latest version of [Node.js and npm](https://nodejs.org/en/download/) installed.
+
+---
+
+## 🛠️ **Step-by-Step Installation and Setup**
+
+### 1️⃣ **Clone the Repository**
+Start by cloning the project repository to your local machine:
+```bash
+git clone https://github.com/your-username/calendar-app.git
+cd calendar-app
+
+```
+### 2️⃣ **Install Dependencies**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+```
+If you encounter dependency conflicts, use one of these commands:
+
+```bash
+npm install --legacy-peer-deps
+```
+or
+```bash
+npm install --force
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3️⃣ **Install shadcn/ui Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**
+```bash
+npx shadcn@latest init
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4️⃣ **Add Required shadcn/ui Components
 
-## Learn More
+**
+```bash
+npx shadcn@latest add button input label textarea table tabs calendar dialog checkbox
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ▶️ **Running the App**
+ Start the development server:
+ ```bash
+  npm run dev
+ ```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  **Open your browser and navigate to**
+```bash
+http://localhost:3000
+```
