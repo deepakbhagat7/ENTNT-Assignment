@@ -63,3 +63,52 @@ npx shadcn@latest add button input label textarea table tabs calendar dialog che
 ```bash
 http://localhost:3000
 ```
+# 📂 **Project Structure**
+
+The project is organized into the following directories and components:
+
+## **Application Files**
+- **`app/`**: Main application files.
+- **`layout.tsx`**: Main layout component.
+- **`page.tsx`**: Main page component.
+
+## **Reusable Components**
+- **`components/`**: Contains shared React components.
+
+### **Admin Module**
+- **`AdminModule.tsx`**: Admin module component.
+- **`CompanyManagement.tsx`**: Manage companies (add, edit, delete).
+- **`CommunicationMethodManagement.tsx`**: Manage communication methods.
+
+### **User Module**
+- **`UserModule.tsx`**: User module component.
+- **`Dashboard.tsx`**: Displays company communication history.
+- **`CalendarView.tsx`**: Calendar view for scheduled communications.
+- **`Notifications.tsx`**: Notifications for upcoming and overdue tasks.
+
+---
+
+# ✨ **Features**
+
+## **User Module**
+- 📊 **Dashboard**: View company communication history and next scheduled actions.
+- 📆 **Calendar View**: Manage and view scheduled communications.
+- 🔔 **Notifications**: Stay updated with reminders for upcoming and overdue communications.
+
+## **Admin Module**
+- 🏢 **Company Management**: Add, edit, and delete company details.
+- 🔄 **Communication Method Management**: Define and manage communication methods.
+
+---
+
+# 🌟 **Future Enhancements**
+- 📈 **Reporting Module**: Generate communication frequency reports and analyze engagement trends.
+- 📊 **Analytics**: Gain insights into overdue communications and engagement effectiveness.
+
+---
+
+# 👩‍💻 **Contributing**
+
+We welcome contributions! Please fork the repository and create a pull request with detailed information about your changes.
+
+
